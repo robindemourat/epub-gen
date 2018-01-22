@@ -43,6 +43,8 @@ Then put this in your code:
     Out put path (absolute path), you can also path output as the second argument when use `new` , eg: `new Epub(options, output)`
 - `version`:
     You can specify the version of the generated EPUB, `3` the latest version (http://idpf.org/epub/30) or `2` the previous version (http://idpf.org/epub/201, for better compatibility with older readers). If not specified, will fallback to `3`.
+- `layout`:
+    Rendering layout - can be "fixed" (for fixed layout) or "reflowable" (optional) - see [fixed layout specification](http://www.idpf.org/epub/fxl/) for more information
 - `css`:
     If you really hate our css, you can pass css string to replace our default style. eg: `"body{background: #000}"`
 - `fonts`:

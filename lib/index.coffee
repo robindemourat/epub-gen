@@ -53,6 +53,7 @@ class EPub
       customHtmlTocTemplatePath: null
       includeDTDEvenInVersion3: true
       version: 3
+      layout: 'reflowable'
     }, options
 
     if @options.version is 2 or (@options.version is 3 and @options.includeDTDEvenInVersion3 is true)
